@@ -904,3 +904,43 @@ Started GET "/assets/2.jpg" for 127.0.0.1 at 2016-05-15 23:50:12 +0300
 
 
 Started GET "/assets/3.jpg" for 127.0.0.1 at 2016-05-15 23:50:12 +0300
+
+
+Started GET "/products" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2016-05-16 00:03:42 +0300
